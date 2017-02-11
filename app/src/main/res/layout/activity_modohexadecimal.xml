@@ -1,0 +1,287 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.br.prosim.prosim.Processador"
+    android:background="#ff2d26dc">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lyRegistrador1ModoHexadecimal"
+        android:background="#ff2552e2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Registrador 1"
+            android:id="@+id/tvRegistradorModoHexadecimal1"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lyHbitsModoHexadecimal1"
+            android:layout_gravity="center_horizontal">
+
+            <Spinner
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@color/dodgerBlue"
+                android:id="@+id/sp1HEx4"
+
+                android:layout_below="@+id/lyRegistrador2ModoHexadecimal"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                />
+            <Spinner
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@color/dodgerBlue"
+                android:id="@+id/sp1HEx3"
+                android:layout_below="@+id/lyRegistrador2ModoHexadecimal"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                />
+            <Spinner
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@color/dodgerBlue"
+                android:id="@+id/sp1HEx2"
+                android:layout_below="@+id/lyRegistrador2ModoHexadecimal"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                />
+            <Spinner
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@color/dodgerBlue"
+                android:id="@+id/sp1HEx1"
+                android:layout_below="@+id/lyRegistrador2ModoHexadecimal"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Valor Decimal"
+                android:id="@+id/tvReg1ValorDecimal"
+                android:layout_gravity="center_vertical"
+                android:textColor="#fff" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/etReg1ValorDecimalHexadecimal"
+                android:text="0"
+                android:gravity="center"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lyRegistrador1ModoHexadecimal"
+        android:id="@+id/lyRegistrador2ModoHexadecimal"
+        android:background="#ff2552e2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Registrador 2"
+            android:id="@+id/tvRegistrador2"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lyHbits2ModoHexadecimal"
+            android:layout_gravity="center_horizontal">
+            <Spinner
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@color/dodgerBlue"
+                android:id="@+id/sp2HEx4"
+                android:layout_below="@+id/lyRegistrador2ModoHexadecimal"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                />
+            <Spinner
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@color/dodgerBlue"
+                android:id="@+id/sp2HEx3"
+                android:layout_below="@+id/lyRegistrador2ModoHexadecimal"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                />
+            <Spinner
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@color/dodgerBlue"
+                android:id="@+id/sp2HEx2"
+                android:layout_below="@+id/lyRegistrador2ModoHexadecimal"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                />
+            <Spinner
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:background="@color/dodgerBlue"
+                android:id="@+id/sp2HEx1"
+                android:layout_below="@+id/lyRegistrador2ModoHexadecimal"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Valor Decimal"
+                android:id="@+id/tvReg2ValorDecimalModoHexadecimal"
+                android:layout_gravity="center_vertical"
+                android:textColor="#fff" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/etReg2ValorDecimalModoHexadecimal"
+                android:text="0"
+                android:gravity="center"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spUCHexadecimal"
+        android:layout_below="@+id/lyRegistrador2ModoHexadecimal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="#ea2202ce" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spUCHexadecimal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/lySaidaModoHexadecimal"
+        android:background="#ca1863de">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Saída"
+            android:id="@+id/textViewModoHexadecimal"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:background="#ed004aff" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+
+            android:ems="10"
+            android:id="@+id/etSaidaModoHexadecimal"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+
+            android:editable="false"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="0000"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Valor Decimal"
+            android:id="@+id/textView2ModoHexadecimal"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:background="#ed004aff" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+
+            android:ems="10"
+            android:id="@+id/etSaidaValorDecimalModoHexadecimal"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+
+            android:editable="false"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Executar Operação"
+        android:id="@+id/btExecutarOperacaoHexadecimal"
+        android:layout_below="@+id/lySaidaModoHexadecimal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

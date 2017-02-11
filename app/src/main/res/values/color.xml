@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dodgerBlue">#1E90FF</color>
+    <color name="vermelho">#ffff0000</color>
+    <color name="MidnightBlue">#191970</color>
+    <color name="LightCyan">#E0FFFF</color>
+    <color name="LightSkyBlue">#87CEFA</color>
+    <color name="Firebrick">#B22222</color>
+    <color name="SteelBlue">#4682B4</color>
+    <color name="IndianRed1">#FF6A6A</color>
+    <color name="IndianRed3">#CD5555</color>
+    <color name="OrangeRed3">#CD3700</color>
+    <color name="Firebrick4">#8B1A1A</color>
+
+
+</resources>

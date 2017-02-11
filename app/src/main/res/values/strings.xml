@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Prosim</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_processador">Processador</string>
+    <string name="ModoHexadecimal">ModoHexadecimal</string>
+    <string name="HexaBinario">HexaBinario</string>
+    <string name="title_activity_sobre">Sobre</string>
+
+</resources>

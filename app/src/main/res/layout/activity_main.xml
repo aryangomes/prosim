@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Main"
+    android:gravity="center"
+    android:background="#EE0000">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llAcessarProcessador"
+        android:padding="15dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imAcessarProcessador"
+            android:src="@drawable/ic_bin_dec"
+            android:background="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Binário para decimal"
+            android:textColor="#fff"
+            android:id="@+id/tvAcessarProcessador"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llModoHexadecimal"
+        android:layout_below="@id/llAcessarProcessador"
+        android:padding="15dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imModoHexadecimal"
+            android:src="@drawable/ic_bin_hex"
+            android:background="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            android:text="Hexadecimal para decimal"
+
+            android:id="@+id/tvAcessarModoHexadecimal"
+            android:layout_gravity="center_vertical"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llAcessarHexaBinario"
+        android:layout_below="@id/llModoHexadecimal"
+        android:padding="15dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imAcessarHexaBinario"
+            android:src="@drawable/ic_bin_hex"
+            android:background="@null"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            android:text="Binário para hexadecimal"
+
+            android:id="@+id/tvAcessarHexaBinario"
+            android:layout_gravity="center_vertical"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llAcessarSobre"
+        android:layout_below="@id/llAcessarHexaBinario"
+        android:padding="15dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imAcessarSobre"
+            android:src="@drawable/ic_sobre"
+            android:background="@null"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            android:text="Sobre"
+
+            android:id="@+id/tvAcessarSobre"
+            android:layout_gravity="center_vertical"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</RelativeLayout>

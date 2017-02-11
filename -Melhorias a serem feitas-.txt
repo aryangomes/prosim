@@ -1,0 +1,8 @@
+Prosim:
+
+
++Design
++Compatibilidade
+-Testar versões 2.x e 3.0, +4.x e +5.x
+-Mais funções(Subtração,Multiplicação...)
+-Ajuda/Sobre

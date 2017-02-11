@@ -1,0 +1,585 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/Firebrick"
+    tools:context="com.br.prosim.prosim.Processador">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lyRegistrador1"
+        android:background="@color/IndianRed1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Registrador 1"
+            android:id="@+id/tvRegistrador1"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lyHbits1"
+            android:layout_gravity="center_horizontal">
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tbBit15"
+                android:layout_margin="1dp"
+                android:checked="false" />
+
+            <ToggleButton
+                 android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:layout_margin="1dp"
+                android:textOff="0"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tbBit14"
+                android:checked="false" />
+
+            <ToggleButton
+                 android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:layout_margin="1dp"
+                android:textOff="0"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tbBit13"
+                android:checked="false" />
+
+            <ToggleButton
+                 android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:layout_margin="1dp"
+                android:textOff="0"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tbBit12"
+                android:checked="false" />
+
+            <ToggleButton
+                 android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:layout_margin="1dp"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tbBit11"
+                android:checked="false" />
+
+            <ToggleButton
+                 android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:layout_margin="1dp"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tbBit10"
+                android:checked="false" />
+
+            <ToggleButton
+                 android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:layout_margin="1dp"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tbBit9"
+                android:checked="false" />
+
+            <ToggleButton
+                 android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:layout_margin="1dp"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tbBit8"
+                android:checked="false" />
+
+            <ToggleButton
+                 android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:layout_margin="1dp"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tbBit7"
+                android:checked="false" />
+
+            <ToggleButton
+                 android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:layout_margin="1dp"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tbBit6"
+                android:checked="false" />
+
+            <ToggleButton
+                 android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tbBit5"
+                android:layout_margin="1dp"
+                android:checked="false" />
+
+            <ToggleButton
+                 android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:layout_margin="1dp"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tbBit4"
+                android:checked="false" />
+
+
+            <ToggleButton
+                 android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tbBit3"
+                android:layout_margin="1dp"
+                android:checked="false" />
+
+            <ToggleButton
+                 android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:layout_margin="1dp"
+                android:id="@+id/tbBit2"
+                android:checked="false" />
+
+            <ToggleButton
+                 android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:layout_margin="1dp"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tbBit1"
+                android:checked="false" />
+
+            <ToggleButton
+                 android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:layout_margin="1dp"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tbBit0"
+                android:checked="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Valor Decimal"
+                android:id="@+id/tvReg1ValorDecimal"
+                android:layout_gravity="center_vertical"
+                android:textColor="#fff" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/etReg1ValorDecimal"
+                android:text="0"
+                android:gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lyRegistrador1"
+        android:id="@+id/lyRegistrador2"
+        android:background="@color/IndianRed1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Registrador 2"
+            android:id="@+id/tvRegistrador2"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lyHbits2"
+            android:layout_gravity="center_horizontal">
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tb2Bit15"
+                android:layout_margin="1dp"
+                android:checked="false" />
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:layout_margin="1dp"
+                android:textOff="0"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tb2Bit14"
+                android:checked="false" />
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:layout_margin="1dp"
+                android:textOff="0"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tb2Bit13"
+                android:checked="false" />
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:layout_margin="1dp"
+                android:textOff="0"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tb2Bit12"
+                android:checked="false" />
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:layout_margin="1dp"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tb2Bit11"
+                android:checked="false" />
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:layout_margin="1dp"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tb2Bit10"
+                android:checked="false" />
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:layout_margin="1dp"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tb2Bit9"
+                android:checked="false" />
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:layout_margin="1dp"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tb2Bit8"
+                android:checked="false" />
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:layout_margin="1dp"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tb2Bit7"
+                android:checked="false" />
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:layout_margin="1dp"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tb2Bit6"
+                android:checked="false" />
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tb2Bit5"
+                android:layout_margin="1dp"
+                android:checked="false" />
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:layout_margin="1dp"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tb2Bit4"
+                android:checked="false" />
+
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tb2Bit3"
+                android:layout_margin="1dp"
+                android:checked="false" />
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:layout_margin="1dp"
+                android:id="@+id/tb2Bit2"
+                android:checked="false" />
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:layout_margin="1dp"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tb2Bit1"
+                android:checked="false" />
+
+            <ToggleButton
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:text="0"
+                android:textOff="0"
+                android:textOn="1"
+                android:layout_margin="1dp"
+                android:background="#ffff0000"
+                android:textColor="#fff"
+                android:id="@+id/tb2Bit0"
+                android:checked="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Valor Decimal"
+                android:id="@+id/tvReg2ValorDecimal"
+                android:layout_gravity="center_vertical"
+                android:textColor="#fff" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/etReg2ValorDecimal"
+                android:text="0"
+                android:gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spUC"
+        android:layout_below="@+id/lyRegistrador2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:background="@color/OrangeRed3" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spUC"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/lySaida"
+        android:background="@color/IndianRed3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Saída"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffff5d5f"
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:textColor="#fff" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+
+            android:ems="10"
+            android:id="@+id/etSaida"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+
+            android:editable="false"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="0000000000000000"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Valor Decimal"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffff5d5f"
+            android:gravity="center"
+            android:textColor="#fff" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+
+            android:ems="10"
+            android:id="@+id/etSaidaValorDecimal"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+
+            android:editable="false"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Executar Operação"
+        android:id="@+id/btExecutarOperacao"
+        android:layout_below="@+id/lySaida"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
