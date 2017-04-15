@@ -13,4 +13,4 @@ Converta números **decimais** em números **binários** ou em **hexadecimais**,
 - *NEG (Negação)*
 - *SUB (Subtração)*
 
-### Baixe na [Google Play](https://play.google.com/store/apps/details?id=com.br.prosim.prosim)
+## Baixe em [Google Play](https://play.google.com/store/apps/details?id=com.br.prosim.prosim)
